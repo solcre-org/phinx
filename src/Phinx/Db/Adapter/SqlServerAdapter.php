@@ -967,6 +967,7 @@ ORDER BY T.[name], I.[index_id];";
             case 'date':
                 return static::PHINX_TYPE_DATE;
             case 'datetime':
+            case 'datetime2':
             case 'timestamp':
                 return static::PHINX_TYPE_DATETIME;
             case 'bit':
